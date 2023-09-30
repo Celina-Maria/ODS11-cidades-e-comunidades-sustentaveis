@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Flamenco&family=Josefin+Slab:wght@600&family=Space+Mono&family=VT323&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    background-image: url(img/cidade-favela.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulos {
+    text-align: center;
+    text-shadow: 1px 1px #F5B836;
+}
+
+nav {
+    display: flex;
+}
+#menu {
+    list-style: none;
+    margin-block-start: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    background-color: #000000;
+}
+#menu li {
+    font-size: x-large;
+    display: flex;
+    float: left;
+    align-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#menu a:link {
+    color: #F5B836;
+    text-decoration: none;
+}
+#menu a:visited {
+    color: #F5B836;
+}
+#menu a:hover {
+    background-color: #f5b936ad;
+    color: #000000;
+    border-radius: 7px;
+}
+#menu a:active {
+    background-color: #fff;
+    color: #F5B836;
+}
+
+header {
+    background-image: url(img/mãos-planeta.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+}
+header h1 {
+    padding-top: 10%;
+    text-align: center;
+    text-shadow: 2px 2px #e9e3e0a2;
+}
+header h2 {
+    text-align: center;
+    text-shadow: 2px 2px #e9e3e0a2;
+}
+header p {
+    background-color: #f5b936ad;
+    color: #000000;
+    text-shadow: 1px 1px #80513b;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+}
+
+#objetivos {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #f5b936a6;
+}
+.ods {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+#lista li {
+    list-style: none;
+    max-width: 500px;
+    max-height: 600px;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff98;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+li p {
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#brasil {
+    background-color: #F5B836;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-align: justify;
+    justify-content: center;
+}
+
+#ods11 {
+    background-color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#sobre {
+    background-color: #F5B836;
+    max-width: 500px;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+    
+}
+#sobre img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 30%;
+}
+
+.mim {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    float: left;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+footer a:link {
+    color: #F5B836;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #F5B836;
+}
+footer a:hover {
+    background-color: #f5b936ad;
+    color: #000000;
+    border-radius: 7px;
+}
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+}
